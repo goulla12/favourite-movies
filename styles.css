@@ -1,0 +1,81 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  ul.movie-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.movie-list li {
+    margin: 10px 0;
+    font-size: 1.3em;
+  }
+  
+  ul.movie-list a {
+    color: #2c3e50;
+    text-decoration: none;
+  }
+  
+  ul.movie-list a:hover {
+    color: #e74c3c;
+  }
+  
+  .movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .movie-details img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-description {
+    text-align: center;
+  }
+  
+  .movie-description p {
+    margin: 10px 0;
+  }
+  
+  .back-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #3498db;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
